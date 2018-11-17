@@ -10,25 +10,25 @@ main{
     align-items: center;
 }
 #tabuleiro{
-    height: 300px;
-    width: 300px;
+    height: 260px;
+    width: 260px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: gray;
+    justify-content: space-between;
+    background-color: #797979;
 }
 
 .linha{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .casa{
     margin: 0;
     width: 80px;
     height: 80px;
-    background-color: lightblue;
+    background-color: #FFF;
     cursor: pointer;
     font-size: 50px;
     font-weight: bolder;
@@ -37,12 +37,11 @@ main{
 }
 
 #restart{
-    margin: 10px 0;
+    margin: 20px 0;
     width: 300px;
     padding: 10px 0;
     border: 1px solid #000;
     border-radius: 10px;
-    
     cursor: pointer;
 }
 
