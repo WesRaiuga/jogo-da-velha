@@ -45,9 +45,15 @@ main{
     
     cursor: pointer;
 }
+
 #restart a{
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
     color: #000;
+}
+
+#vencedor{
+    font-size: 30px;
+    color: #107a10;
 }
