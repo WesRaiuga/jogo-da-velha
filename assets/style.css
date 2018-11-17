@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tabuleiro{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: gray;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.casa{
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 80px;
+}
+
+#restart{
+    margin: 10px 0;
+    width: 300px;
+    padding: 10px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+#restart a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #000;
+}
